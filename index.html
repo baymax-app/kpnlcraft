@@ -1,1 +1,44 @@
-Этот сайт на стадии разработки
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KPNLcraft 4</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <img id='logo' src='favicon.ico'>
+        <div class="test">
+            Майнкрафт Minecraft
+        </div>
+        <img src="Vector 1.png" class="vector1">
+        <img src="Vector 2.png" class="vector2">
+        <h1 class="serv">С<br>е<br>р<br>в<br>е<br>р</h1>
+        <h1 class="serv2">S<br>e<br>r<br>v<br>e<br>r</h1>
+    </body>                
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.2.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCWEEpykwBVxW_BoeHrUi1fdtVZoBgHzSQ",
+          authDomain: "kpnlcraft.firebaseapp.com",
+          projectId: "kpnlcraft",
+          storageBucket: "kpnlcraft.appspot.com",
+          messagingSenderId: "1056078717402",
+          appId: "1:1056078717402:web:9282dd70a63d3a1d20e0e3",
+          measurementId: "G-GKJVP1BBWK"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</html>
